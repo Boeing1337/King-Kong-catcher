@@ -6,8 +6,8 @@ import java.nio.file.Paths;
 
 class Main{
     public static void main(String[] arg){
-        String[] string = {"-mode", "dec", "-in", "C:\\road_to_treasure.txt","-out", "C:\\protected.txt", "-key", "55", "-alg" ,"shift"};
-        ParseArg parse = new ParseArg(string);
+        
+        ParseArg parse = new ParseArg(arg);
         ProcessArg process = new ProcessArg(parse);
         process.process();
 
