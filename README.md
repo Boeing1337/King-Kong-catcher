@@ -4,8 +4,7 @@ Main.java can encrypt and decrypt data from file or from command line while star
 
 -data "your string"          - to process string from console  
 -in "path to input file"     - if you want to process data from file
-
--out "path to output file"   - to choose output file(rewrite) 
+-out "path to output file"   - to choose output file(rewrite)
 
 -mode enc or dec             - choose mode encrypt or decrypt 
 -key integer                 - keycode
